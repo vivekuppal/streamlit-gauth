@@ -1,0 +1,4 @@
+streamlit==1.31.1
+google-auth==2.28.1
+google-auth-oauthlib==1.2.0
+google-api-python-client==2.119.0
