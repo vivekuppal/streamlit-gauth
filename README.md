@@ -18,7 +18,7 @@ A simple app to Demonstrate using Google as IDP provider for a Streamlit App
     - Choose an “External” user type and click “Create”.
     - Provide a name for your application, enter the authorized domain (e.g., localhost for local development), and add any additional required information.
     - Save.
-4. Create OAuth credentials:
+4. Create OAuth credentials (See images):
     - In the Google Cloud Console, navigate to the “APIs & Services” > “Credentials” section.
     - Click “Create Credentials” and select “OAuth client ID”.
     - Choose “Web application” as the application type.
@@ -26,6 +26,7 @@ A simple app to Demonstrate using Google as IDP provider for a Streamlit App
     - Add the authorized JavaScript origins (e.g., http://localhost:8501 for Streamlit’s default development server).
     - Add the authorized redirect URI (e.g., http://localhost:8501/).
     - Click “Create” to generate the OAuth client ID and client secret.
+
 <img src="assets/OAuth-client.png">
 <img src="assets/OAuth-client-create.png">
 <img src="assets/OAuth-client-created.png">
