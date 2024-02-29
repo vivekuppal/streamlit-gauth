@@ -1,3 +1,6 @@
+"""
+Sample application to demonstrate Google Auth integration with Streamlit.
+"""
 import os
 import json
 import webbrowser
