@@ -1,3 +1,6 @@
+"""
+Sample application to demonstrate Google Auth integration with Streamlit.
+"""
 import os
 import json
 import webbrowser
@@ -9,9 +12,9 @@ import streamlit as st
 # These URI should match the Authorized redirect URIs in
 # Google Cloud Credentials
 REDIRECT_URI = os.environ.get('REDIRECT_URI', 'http://localhost:8501/')
-CLIENT_ID = os.environ.get('CLIENT_ID', '430995157603-4m4081s2jv7skkpn7evd01qap0pj6vs5.apps.googleusercontent.com')
-CLIENT_SECRET = os.environ.get('CLIENT_SECRET', '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')
-PROJECT_ID = os.environ.get('PROJECT_ID', 'transcribe-392421')
+CLIENT_ID = os.environ.get('CLIENT_ID')
+CLIENT_SECRET = os.environ.get('CLIENT_SECRET')
+PROJECT_ID = os.environ.get('PROJECT_ID')
 
 
 def authenticate():
